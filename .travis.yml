@@ -33,3 +33,8 @@ after_success:
   - docker push hoangtrungnghia/udagram-api-feed-v2:v1
   - docker push hoangtrungnghia/udagram-frontend-v2:local
   - docker push hoangtrungnghia/udagram-reverseproxy-v2:v1
+  
+  - docker pull hoangtrungnghia/udagram-api-user-v2:v1
+  - docker pull hoangtrungnghia/udagram-api-feed-v2:v1
+  - docker pull hoangtrungnghia/udagram-frontend-v2:local
+  - docker pull hoangtrungnghia/udagram-reverseproxy-v2:v1
