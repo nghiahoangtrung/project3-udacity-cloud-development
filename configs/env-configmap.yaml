@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+  namespace: default
+data:
+  AWS_BUCKET: udagram-project-3
+  AWS_PROFILE: default
+  AWS_REGION: eu-east-1
+  JWT_SECRET: aGVsbG8xMjM0NQ==
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: cdr3.cpmbomf1vmkr.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+  NODE_OPTIONS: --max-old-space-size=1024
+metadata:
+  name: env-config
